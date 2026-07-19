@@ -1,6 +1,4 @@
-/* =========================================
-   Global Styles (التنسيقات العامة)
-   ========================================= */
+
 html {
     scroll-behavior: smooth; 
     scroll-padding-top: 90px; 
@@ -13,7 +11,7 @@ html {
 body {
     margin: 0;
     font-family: "Quicksand", sans-serif;
-    color: #333; /* لون النص الأساسي */
+    color: #333;
 }
 
 img {
@@ -38,11 +36,8 @@ ul {
     clear: both;
 }
 
-/* =========================================
-   Navbar Desktop (شريط القوائم للكمبيوتر)
-   ========================================= */
 #nav {
-    background-color: #1e1e1e; /* رمادي غامق جداً (شيك ومودرن) */
+    background-color: #1e1e1e;
     padding: 25px 0;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
     position: sticky;
@@ -52,14 +47,14 @@ ul {
 
 #nav .logo { 
     float: left;
-    color: #e67e22; /* برتقالي جذاب */
+    color: #e67e22; 
     font-size: 29px;
     font-weight: 700;
     transition: color 0.3s ease;
 }
 
 #nav .logo:hover {
-    color: #f39c12; /* درجة أفتح شوية لما الماوس ييجي عليه */
+    color: #f39c12; 
 }
 
 #nav ul {
@@ -72,7 +67,6 @@ ul {
     margin-left: 20px;
 }
 
-/* التنسيق الأساسي للروابط (أبيض عشان ينطق على الغامق) */
 #nav ul li a {
     color: #ffffff;
     font-size: 18px;
@@ -82,24 +76,17 @@ ul {
     transition: all 0.3s ease; 
 }
 
-/* تأثير الماوس العادي */
 #nav ul li a:hover {
     color: #e67e22;
 }
-
-/* الكلاس اللي هيتحط بالجافاسكريبت عشان يخلي اللينك زرار */
 .contact-btn {
     background-color: #e67e22 !important; 
     color: #ffffff !important; 
 }
 
 .contact-btn:hover {
-    background-color: #d35400 !important; /* برتقالي غامق للـ hover */
+    background-color: #d35400 !important; 
 }
-
-/* =========================================
-   Navbar Mobile Hack (تجهيزات قائمة الموبايل)
-   ========================================= */
 .menu-checkbox {
     display: none;
 }
@@ -112,10 +99,6 @@ ul {
     cursor: pointer;
     margin-top: -5px;
 }
-
-/* =========================================
-   Media Queries (شاشات الموبايل) للـ Navbar
-   ========================================= */
 @media (max-width: 768px) {
     .menu-icon {
         display: block;
@@ -148,10 +131,6 @@ ul {
         display: inline-block;
     }
 } 
-
-/* =========================================
-   Hero Section (الصورة الرئيسية والترحيب)
-   ========================================= */
 .hero {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?ixlib=rb-4.0.3&auto=format&fit=crop&w=1920&q=80');
     background-size: cover; 
@@ -201,13 +180,9 @@ ul {
         font-size: 18px;
     }
 }
-
-/* =========================================
-   Menu Section (قسم قائمة الطعام والكروت)
-   ========================================= */
 .menu-section {
     padding: 80px 0;
-    background-color: #f8f5f2; /* أوف وايت مريح ومناسب للأكل */
+    background-color: #f8f5f2;
 }
 
 .section-title {
@@ -219,7 +194,7 @@ ul {
 }
 
 .section-title span {
-    color: #e67e22; /* لمسة برتقالي في العنوان */
+    color: #e67e22;
 }
 
 .menu-grid {
@@ -272,12 +247,8 @@ ul {
     font-size: 24px;
     font-weight: 700;
 }
-
-/* =========================================
-   Footer (الفوتر - تذييل الصفحة)
-   ========================================= */
 .footer {
-    background-color: #151515; /* أسود صريح للفوتر */
+    background-color: #151515; 
     color: white;
     padding: 60px 0 20px; 
 }
